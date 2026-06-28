@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env
+
+# Spark
+checkpoints/
+metastore_db/
+spark-warehouse/
+
+# Airflow
+airflow/logs/
+airflow/.env
+airflow/airflow.db
+
+# Docker
+*.log
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
